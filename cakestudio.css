@@ -1,0 +1,123 @@
+*{font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 508;
+    font-style: normal;
+    margin: 0;
+    background-color: rgb(237, 222, 222);
+    color: black;
+    overflow: auto;
+text-decoration: none;
+
+
+
+}
+
+
+.header{
+    display: flex;
+    position: fixed;
+    top: 0%;
+justify-content: space-between;
+align-items: center;
+z-index: 10;
+height: 50px;
+background-color: rgb(237, 222, 222);
+width: 1535px;
+align-items: center;
+
+}
+
+
+.header .logo{
+    text-decoration: none;
+    font-size:1.5rem;
+    font-weight:bold;
+    color:black;
+    margin-left: 10px;
+    background-color: rgb(237, 222, 222);
+    
+}
+.header .logo i{
+    color:#222222;
+    
+    background-color: rgb(237, 222, 222);
+
+}
+
+.header .navbar a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color:black;
+    margin: 0 1rem;
+    background-color: rgb(237, 222, 222);
+    font-weight: bolder;
+}
+.header .navbar a:hover{
+    color: white;
+}
+.header .icons div{
+    font-size: 1.4rem;
+    margin-right: 1.5rem;
+    cursor:pointer;
+    color:#222222;
+    background-color:rgb(237, 222, 222);
+}
+.header .icons div:hover{
+    color: white;
+}
+
+.maingallery{
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+.maingallery .imagges{
+    position: relative;
+    margin-left: 370px;
+    width: 800px;
+    
+}
+
+.cards {
+    
+background-color :rgb(237, 222, 222);
+
+}
+.cards .heading{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-weight: bolder;
+    
+}
+.cardcontainer{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    
+}
+.card{  margin: 30px; }
+.card:hover{
+    box-shadow: 5px 5px 10px palevioletred;
+    border-radius: 20px;
+}
+
+
+.footer{
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(237, 222, 222);
+}
+
+.line{
+    height: 30%;
+    width: 90%;
+    background-color: rgb(237, 222, 222);
+    opacity: 0.5}
+
+
+
+
+
